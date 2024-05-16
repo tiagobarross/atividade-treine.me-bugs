@@ -1,24 +1,33 @@
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+  }
+  
   body {
     margin: 0;
-  
     font-family: "Open Sans", sans-serif;
-  
     background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
-  
     min-height: 100vh;
   }
   
   .page {
-    width: 100vh;
-    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 65px;
   }
   
   nav {
+    width: 1005px;
+    height: 26px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 55px;
   }
   
   ul {
@@ -46,7 +55,7 @@
     height: 433px;
     display: flex;
     flex-direction: row-reverse;
-    border: 1px solid red;
+    gap: 102px;
   }
 
   h1, ul {
@@ -73,7 +82,7 @@
     line-height: 28px;
     color: #7d7987;
   
-    margin: 40px 0;
+    margin: 40px 0 40px;
   }
   
   button {
@@ -82,11 +91,10 @@
   
     background: #69B99D;
     border: 0;
-    padding: 0 50px 30px;
+    padding: 14px 32px 15px;
   
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
+    justify-content: space-between;
   
     border-radius: 4px;
   
